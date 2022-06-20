@@ -1,0 +1,1 @@
+/code/github/os/target/riscv64gc-unknown-none-elf/release/os: /code/github/os/src/console.rs /code/github/os/src/entry.asm /code/github/os/src/lang_items.rs /code/github/os/src/main.rs /code/github/os/src/sbi.rs

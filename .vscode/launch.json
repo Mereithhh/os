@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "cppdbg",
+          "request": "launch",
+          "name": "Attach to gdbserver",
+          "program": "${workspaceFolder}/os/target/riscv64gc-unknown-none-elf/release/os",
+          "miDebuggerServerAddress": "localhost:1234",
+
+          "miDebuggerPath": "/code/github/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gdb",
+          "cwd": "${workspaceRoot}",
+      }
+  ]
+}
